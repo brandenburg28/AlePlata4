@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/main.css">
+  <script src="./src/bootstrap.bundle.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger" href="#"><div class="h3"><b>Ale Silver</b></div></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item pt-3">
+            <a class="nav-link active" aria-current="page" href="index.html"><div class="h4">home</div></a>
+          </li>
+          <li class="nav-item pt-3">
+            <a class="nav-link" href="kettingen.html"><div class="h4">kettingen</div></a>
+          </li>
+          <li class="nav-item pt-3">
+            <a class="nav-link" href="ringen.html"><div class="h4">ringen</div></a>
+          </li>
+          <li class="nav-item pt-3">
+            <a class="nav-link" href="contact.html"><div class="h4">contact</div></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="ringen.jpg" class="img-fluid rounded rounded-3" alt="ringen" width="110px"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-lg">
+    <div class="text-center">
+      <h2>Contact en ook bestelling doorgeven.</h2>
+      <p class="lead"><b>Heb je een vraag of wil je een bestelling doorgeven dan kan dit hier door het formulier in te vullen.</b></p>
+    </div>
+    <div class="row jusitify-content-center my-5"></div>
+    
+
+
+    <div class="col-12 col-lg-6">
+
+    <form action="https://formspree.io/f/xdoqdakz" method="post">
+
+    
+
+  
+  <label for="email" class="form-label">Email-adres:</label>
+  
+   <input type="email" class="form-control" id="email" placeholder="voorbeeld@gmail.com" required>
+  
+   <label for="name" class="form-name">Naam:</label>
+   
+   <input type="text" class="form-control" id="name" placeholder="Jan Jansen" required>
+  
+
+   
+   <div class="form-floating mb-4 mt-5">
+
+    <textarea name="text"        id="query" class="form-control" style="height: 180px" required></textarea>
+    <label for="query">Welke bestelling wil je plaatsen, of wat wil je vragen?</label>
+
+   </div>
+   <div class="mb-4 text-center">
+
+    <button type="submit" class="btn btn-primary">verzend</button>
+   </div>
+   
+
+
+  </div>
+</form>
+
+
+
+  </div>
+    
+ 
+
+  
+</body>
+</html>
